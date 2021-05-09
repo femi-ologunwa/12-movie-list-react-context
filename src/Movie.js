@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Movie() {
+function Movie({ id, name, price }) {
    return (
       <div>
-         <h3>Movie</h3>
+         <h3>{name}</h3>
+         <h4>{price}</h4>
       </div>
    );
 }

@@ -4,16 +4,18 @@ import { MovieContext } from './MovieContext';
 
 function MovieList() {
    //accessing the value in the provider through the context
-   const value = useContext(MovieContext);
+   const [movies, setMovies] = useContext(MovieContext);
 
    return (
       <div className='movieList'>
-         <h3>{value}</h3>
-         <Movie />
+         {movies.map((movie) => {
+            console.log(movie);
+            return (
+               <Movie key={movie.id} name={movie.name} price={movie.price} />
+            );
+         })}
       </div>
    );
 }
 
 export default MovieList;
-
-//the value constant will render 'Hello'
