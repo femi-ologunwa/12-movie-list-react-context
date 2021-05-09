@@ -192,14 +192,32 @@ main {
 
 .nav {
    height: 60px;
-   background-color: cornflowerblue;
+   background-color: #2164da;
    display: flex;
    justify-content: space-around;
    align-items: center;
+   color: #fff;
 }
 
 .movieList,
 .movieForm {
    max-width: 700px;
    margin: 20px auto;
+   text-align: center;
+}
+
+.movieForm input {
+   padding: 7px;
+   margin: 10px 15px;
+   border: 2px solid #ccc;
+   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.movieForm button {
+   padding: 7px 14px;
+   margin: 10px 15px;
+   border: 2px solid transparent;
+   background-color: #4e94ff;
+   color: #fff;
+   text-transform: capitalize;
 }

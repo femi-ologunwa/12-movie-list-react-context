@@ -25,8 +25,20 @@ function AddMovie() {
 
    return (
       <form className='movieForm' onSubmit={addMovie}>
-         <input type='text' name='name' value={name} onChange={updateName} />
-         <input type='text' name='price' value={price} onChange={updatePrice} />
+         <input
+            type='text'
+            name='name'
+            placeholder='Name'
+            value={name}
+            onChange={updateName}
+         />
+         <input
+            type='text'
+            name='price'
+            placeholder='Price'
+            value={price}
+            onChange={updatePrice}
+         />
          <button className='btn'>submit</button>
       </form>
    );
