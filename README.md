@@ -1,5 +1,11 @@
 ### React Context For State Management
 
-Implementation
+#### Homepage
+
+[view](https://femi-ologunwa.github.io/12-movie-list-react-context)
+
+![](./homescreen.png)
+
+### Implementation
 
 -  Illustrating how to use context for state management
