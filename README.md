@@ -4,12 +4,12 @@
 
 ![](./problem-illustration.png)
 
-#### Homepage
+#### A simple Practical Example
 
-[view](https://femi-ologunwa.github.io/12-movie-list-react-context)
+[view page](https://femi-ologunwa.github.io/12-movie-list-react-context)
 
-![](./homescreen.png)
+![](./homescreen.gif)
 
 ### Implementation
 
--  Illustrating how to use context for state management
+-  Illustrating how to use context for passing data between dependent and independent components.
