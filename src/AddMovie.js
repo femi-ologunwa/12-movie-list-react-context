@@ -21,6 +21,8 @@ function AddMovie() {
          ...prevMovies,
          { name: name, price: price, id: new Date().getTime().toString() },
       ]);
+      setName('');
+      setPrice('');
    };
 
    return (
